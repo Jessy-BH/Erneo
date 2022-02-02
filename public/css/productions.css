@@ -1,0 +1,43 @@
+.productions-title {
+    min-height: 85vh;
+    background: url(../img/fabrications/fabrication.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.right {
+    background-color: var(--main-yellow-color);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+}
+
+.windings-list {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.windings-list>li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.windings-text {
+    font-size: 18px;
+}
+
+.content>p>a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.content>p>a:hover {
+    background-color: black;
+    color: var(--main-yellow-color);
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.skill-title {
+    min-height: 85vh;
+    width: 100%;
+    background: url(../img/skill/skill-title-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.architecture-pic, .others-pic, .material-pic, .environment-pic, .technologies-pic {
+    background: url(../img/studies/quokka.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.perimeter {
+    height: 500px;
+    width: 600px;
+}
+.perimeter img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.perimeter-pic {
+    background: url(../img/skill/perimeter.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

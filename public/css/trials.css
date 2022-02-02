@@ -1,0 +1,9 @@
+.trials-title {
+	background: url(../img/studies/math.jpg);
+min-height: 85vh;
+width: 100%;
+}
+
+.trials-intro {
+	text-align: justify;
+}

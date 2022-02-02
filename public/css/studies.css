@@ -1,0 +1,70 @@
+.studies-title {
+    min-height: 85vh;
+    width: 100%;
+    background: url(../img/studies/maths3.jpg) no-repeat center / cover;
+}
+
+.right {
+    background-color: var(--main-yellow-color);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+}
+
+.right h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.right :is(p, li) {
+    line-height: 25px;
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+section p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+section li {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section>:is(.specifications, .practicability, .conception)>h3 {
+    font-weight: bold;
+}
+
+.col>:is(.electromagnetic, .simulation, .thermal, .security, .mecanic)>h3 {
+    font-weight: bold;
+}
+
+.studies-column-left {
+    /*background-color: var(--main-yellow-color);*/
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.studies-column-right {
+    /*background-color: var(--main-yellow-color);*/
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.row-yellow {
+    background-color: var(--main-yellow-color);
+    border-radius: 8px;
+}
+
+.electromagnetic-pic, .thermal-pic, .simulation-pic, .security-pic, .mecanic-pic {
+    background: url(../img/studies/quokka.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
